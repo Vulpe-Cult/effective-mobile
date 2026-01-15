@@ -24,7 +24,7 @@ cd effective-mobile
 ```bash
 docker compose up -d --build
 ```
-
+```bash
 Как устроено
 
 backend -простой HTTP-сервер на модуле http.server
@@ -36,7 +36,7 @@ nginx -reverse proxy
 Конфигурация полностью переопределяет дефолтную (через command в compose)
 Сеть -bridge-сеть internal
 Контейнеры общаются друг с другом по имени сервиса (backend)
-
+```
 
 
 
