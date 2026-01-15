@@ -1,11 +1,10 @@
 effective-mobile/
 ├── backend/
-│   ├── Dockerfile          # сборка Python-сервера
-│   └── app.py              # основной код сервера
+│ ├── Dockerfile
+│ └── app.py
 ├── nginx/
-│   └── nginx.conf          # конфигурация Nginx
-├── docker-compose.yml      # описание сервисов и сети
-├── .gitignore
+│ └── nginx.conf
+├── docker-compose.yml
 └── README.md
 
 
