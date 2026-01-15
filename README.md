@@ -1,3 +1,4 @@
+```bash
 effective-mobile/
 ├── backend/
 │ ├── Dockerfile
@@ -6,7 +7,7 @@ effective-mobile/
 │ └── nginx.conf
 ├── docker-compose.yml
 └── README.md
-
+```
 
 ## Как запустить
 
